@@ -51,6 +51,10 @@
     </script>
     <style type="text/css">
         #jz{ margin:0 auto;}
+        p.ex{
+            color: #888888;
+            font-size: 400%;
+        }
     </style>
 <body class="easyui-layout">
 <div region="north" style="height: 78px; background-color: #ffff">
@@ -60,7 +64,8 @@
             <td valign="bottom"
                 style="font-size: 20px; color: #8B8B8B; font-family: '\u6977\u4f53',serif;"
                 align="right" width="50%"><font size="3">&nbsp;&nbsp;<strong>当前管理员：</strong></font>
-                <font color="red">${sessionScope.currentAdmin.username}</font></td>
+                <font color="red">${sessionScope.currentAdmin.username}</font>
+            </td>
 
         </tr>
     </table>
@@ -69,7 +74,7 @@
     <div class="easyui-tabs" fit="true" border="false" id="tabs">
         <div title="主页" data-options="iconCls:'icon-home'">
             <div align="center" style="padding-top: 50px">
-                <font color="grey" size="100">人事管理系统</font>
+                <p class="ex">人事管理系统</p>
             </div>
         </div>
     </div>

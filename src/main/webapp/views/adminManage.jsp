@@ -126,7 +126,7 @@
     <thead>
     <tr>
         <th field="cb" checkbox="true" align="center"></th>
-        <th field="admin_id" width="50" align="center">id</th>
+        <th field="id" width="50" align="center">id</th>
         <th field="username" width="80" align="center">帐号</th>
         <th field="role_name" width="80" align="center">角色名称</th>
     </tr>
