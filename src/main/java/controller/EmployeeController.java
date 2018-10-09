@@ -28,8 +28,6 @@ import java.util.Map;
 
 /**类中的所有响应方法都被映射到 /empl 路径下
  *
- * @author shiyanlou
- *
  */
 @Controller
 @RequestMapping("/empl")
